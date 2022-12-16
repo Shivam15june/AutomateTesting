@@ -19,7 +19,7 @@ public class logintest {
         System.out.println("The url of the page is=:"+url);
         
         Thread.sleep(2000);
-        
+        System.out.println("hey this is me");
         WebElement ele = driver.findElement(By.xpath("//input[@id='user-name']"));
         ele.sendKeys("performance_glitch_user");
         Thread.sleep(2000);
