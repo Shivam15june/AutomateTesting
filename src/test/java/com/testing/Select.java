@@ -12,6 +12,10 @@ public class Select {
 	
 	
 	WebDriverManager.chromedriver().setup();
+	
+	
+	
+
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://demo.guru99.com/test/newtours/register.php");
 	driver.manage().window().maximize();
